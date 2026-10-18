@@ -113,7 +113,6 @@ namespace BasicWebServer.Server
 
             await networkStream.WriteAsync(resposeBytes);
 
-            networkStream.Write(resposeBytes);
         }
 
        
